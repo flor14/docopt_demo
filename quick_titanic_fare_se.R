@@ -7,8 +7,8 @@ from a csv file. This script takes an unquoted column name and a data file path.
 Usage: quick_titanic_fare_se.R --file_path=<file_path> --var=<var>
 
 Options:
--f <file_path> --file_path=<file_path>   Path to the data file
--v=<var> --var=<var>                     Unquoted column name of the numerical vector for which to calculate the se
+--file_path=<file_path>   Path to the data file
+--var=<var>               Unquoted column name of the numerical vector for which to calculate the se
 " -> doc
 
 library(tidyverse)
